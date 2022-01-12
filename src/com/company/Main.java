@@ -7,11 +7,11 @@ public class Main {
         {
             return 1;
         }
-        else if(score>=500 && score < 1000)
+        else if(score>=500)
         {
             return 2;
         }
-        else if(score >= 100 && score < 500)
+        else if(score >= 100)
         {
             return 3;
         }
@@ -27,8 +27,8 @@ public class Main {
 
     public static void main(String[] args) {
     displayHighScorePosition("B",calculateHighScorePosition(1500));
-    displayHighScorePosition("P",calculateHighScorePosition(900));
-    displayHighScorePosition("C",calculateHighScorePosition(400));
+    displayHighScorePosition("P",calculateHighScorePosition(877));
+    displayHighScorePosition("C",calculateHighScorePosition(450));
     displayHighScorePosition("D",calculateHighScorePosition(50));
     }
 }
